@@ -4,21 +4,21 @@ import Image from 'next/image';
 
 const testimonials = [
   {
-    quote: "Working with them was a transformative experience. Their expertise in AI and design resulted in a product that exceeded all our expectations.",
-    name: "Jane Doe",
-    title: "CEO, Innovate Inc.",
+    quote: "Working with Arianit has been a delight. Their intellect shines as they effortlessly decode intricate concepts, making them accessible to everyone. Their programming skills are remarkable, modelling and automating complex tasks; and as a friend, they're always warm, supportive, and ever-helpful",
+    name: "Lorenzo Mantilla Gutierrez",
+    title: "RBC BlueBay, Analyst",
     image: "https://i.pravatar.cc/150?img=1"
   },
   {
-    quote: "The attention to detail and creative problem-solving were outstanding. They are not just developers; they are true partners in innovation.",
-    name: "John Smith",
-    title: "CTO, Future Forward",
+    quote: "Having worked closely with Arianit, I've witnessed their unwavering passion for financial markets. Their exceptional work ethic and ability to derive actionable insights from data are truly remarkable. They possess a rare talent for simplifying complex concepts, ensuring comprehension by all stakeholders.",
+    name: "Peter Millington",
+    title: "Santander, Head of Markets",
     image: "https://i.pravatar.cc/150?img=2"
   },
   {
-    quote: "An unparalleled ability to turn complex concepts into beautiful, intuitive user interfaces. I can't recommend them highly enough.",
-    name: "Alex Johnson",
-    title: "Lead Designer, Creative Solutions",
+    quote: "Arianit has always been eager to explore new subjects and put them to the test. He will always try to see how to apply things directly from the classroom into the real world. His coding skills and his ability to comprehend deep and complex concepts will enable him to integrate seamlessly into a variety of different teams.",
+    name: "Nikos Gakis",
+    title: "BNP Paribas, Analyst",
     image: "https://i.pravatar.cc/150?img=3"
   }
 ];
@@ -35,7 +35,7 @@ const Testimonials = () => {
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 0.5 }}
         >
-          What Others Say
+          Here&apos;s what others say about me
         </motion.h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           {testimonials.map((testimonial, index) => (

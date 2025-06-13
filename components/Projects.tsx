@@ -8,28 +8,34 @@ import Image from 'next/image';
 
 const projects = [
   {
-    title: 'Project Genesis',
-    description: 'A generative AI that creates novel artistic styles from textual prompts, leveraging diffusion models and CLIP.',
-    tags: ['PyTorch', 'Hugging Face', 'Next.js', 'Vercel'],
+    title: 'KAI Voice Agent',
+    description: 'A voice agent that can help you with your daily tasks and answer your questions. It is built with Next.js, Vercel, and the OpenAI API.',
+    tags: ['Next.js', 'Vercel', 'Livekit', 'Gemini'],
     category: 'Generative AI',
-    image: 'https://picsum.photos/seed/genesis/800/600',
+    image: '/kai.png',
   },
   {
-    title: 'Sentient UI',
+    title: 'Salespeak',
     description: 'An adaptive user interface that learns from user behavior to personalize layouts and workflows in real-time.',
     tags: ['TensorFlow.js', 'React', 'WebSockets'],
     category: 'Interactive UI',
     image: 'https://picsum.photos/seed/sentient/800/600',
   },
   {
-    title: 'Project Chimera',
+    title: '20 Punches',
     description: 'A multi-modal AI assistant that understands and responds to a combination of text, voice, and visual cues.',
     tags: ['OpenAI API', 'Google Cloud Speech', 'Three.js'],
     category: 'Multi-modal Systems',
     image: 'https://picsum.photos/seed/chimera/800/600',
   },
   {
-    title: 'Another AI Project',
+    title: 'ECOTEK',
+    description: 'Exploring the frontiers of AI with another exciting project.',
+    tags: ['PyTorch', 'Next.js'],
+    category: 'Generative AI',
+    image: 'https://picsum.photos/seed/another/800/600',
+  },{
+    title: 'Side Projects',
     description: 'Exploring the frontiers of AI with another exciting project.',
     tags: ['PyTorch', 'Next.js'],
     category: 'Generative AI',
@@ -69,7 +75,7 @@ const Projects = () => {
   return (
     <section id="projects" className="min-h-screen flex flex-col items-center justify-center bg-transparent text-white relative z-10 py-20 container mx-auto">
       <div className="max-w-4xl mx-auto text-center p-4" style={{ textShadow: '0 0 10px rgba(0,0,0,0.7)' }}>
-        <h2 className="text-4xl md:text-5xl font-bold mb-8">Side Projects & Experiments</h2>
+        <h2 className="text-4xl md:text-5xl font-bold mb-8">What I&apos;ve built</h2>
         
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           {categories.map(category => (
